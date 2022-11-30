@@ -21,7 +21,7 @@ copy  /b  *.bin  vb2.bin
 ```
 获得已经组合好的bi 
 6. 拷贝 vb2.bin 到sd卡  
-7. 安装Arduino IDE 安装库 TFT_22_ILI9225 ,安装开发板 stm32duino 的这一版  
+7. 安装Arduino IDE 安装库 [TFT_22_ILI9225](https://github.com/Nkawu/TFT_22_ILI9225) (库管理器里安装即可) ,安装开发板 [stm32duino 的这一版](https://github.com/rogerclarkmelbourne/Arduino_STM32)
 8. 打开fps32.ino，选中开发板STM32F103C ，频率超频128Mhz，下载到stm32板子上  
 9. ili9225 2.2寸 tft和sd卡全部连接到stm32的spi1，屏的片选连接在PA0,sd卡片选在PB6,上电运行即可
 
